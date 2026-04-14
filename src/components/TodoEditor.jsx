@@ -21,6 +21,7 @@ function TodoEditor({onCreate}) {
             <div className='editor-wrapper'>
                 <input value={content} onChange={onChangeContent} placeholder='새로운 Todo...' />
                 <button>추가</button>
+                <h4>하이</h4>
             </div>
         </div>
     )
